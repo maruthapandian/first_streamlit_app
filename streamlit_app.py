@@ -47,11 +47,9 @@ try:
 
 except URLError as e:
     streamlit.error()
+
 #dont run anything past here while we troubleshoot
-streamlit.stop()
-
-
-
+#streamlit.stop()
 
 streamlit.text("The fruit load list contains")
 #snowfalke related functions
